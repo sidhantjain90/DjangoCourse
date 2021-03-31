@@ -1,0 +1,33 @@
+p{
+  text-align: center;
+}
+
+.art{
+  margin: auto;
+}
+
+td{
+  width: 100px;
+  height: 200px;
+  border: 3px solid white;
+}
+
+#Tab1{
+  background-color: #ce2d4f;
+}
+
+#Tab2{
+  background-color: #CE6D8B;
+}
+
+#Tab3{
+  background-color: #CEBBC9;
+}
+
+#Tab4{
+  background-color: #4056F4;
+}
+
+#Tab5{
+  background-color: #470FF4;
+}

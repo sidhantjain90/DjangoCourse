@@ -1,0 +1,20 @@
+body{
+  background-color: #011627;
+  color: #FDFFFC;
+  text-align: center;
+  border: 60px solid #2EC4B6;
+  border-top: 0px;
+}
+
+.SignUpForm{
+  text-align: center;
+  font-size: 1.0em;
+  margin-bottom: 10px;
+}
+
+#sub{
+  background-color: #FF9F1C;
+  border-radius: 25px;
+  width: 100px;
+  height: 60px;
+}
