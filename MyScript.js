@@ -1,4 +1,8 @@
-alert("Welcome to your bank!")
-var deposit = prompt("How much would you like to deposit?")
-alert("You've deposited " + deposit)
-console.log("You are a cool person")
+var hot = false
+var temp = 100
+
+if (temp > 80) {
+  console.log("Hot outside");
+}else {
+  console.log("Its not very hot today!");
+}
