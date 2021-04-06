@@ -1,8 +1,7 @@
-var hot = false
-var temp = 100
+var x = 0;
 
-if (temp > 80) {
-  console.log("Hot outside");
-}else {
-  console.log("Its not very hot today!");
+while (x <= 10) {
+  console.log("x is curently: "+x);
+
+  x = x+2;
 }
