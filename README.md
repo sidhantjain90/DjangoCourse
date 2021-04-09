@@ -6,9 +6,9 @@ Things I've learnt so far:
 - CSS
 - JavaScript
 - Document Object Model
+- JQuery
 
 Things to learn:
 
-- JQuery
 - Python
 - Django
