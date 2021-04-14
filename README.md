@@ -7,8 +7,8 @@ Things I've learnt so far:
 - JavaScript
 - Document Object Model
 - JQuery
+- Python
 
 Things to learn:
 
-- Python
 - Django
