@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>Hello This is Second Page!</h1>
+    <h2>Here is the users list</h2>
+
+    <div class="djangtwo">
+      {% if users %}
+
+      <ol>
+        {% for person in users%}
+        <li>Users Info</li>
+          <ul>
+            <li>First Name: {{ person.first_name }}</li>
+            <li>Last Name: {{ person.last_name }}</li>
+            <li>Email: {{ person.email }}</li>
+          </ul>
+        {% endfor %}
+      </ol>
+
+      {% else %}
+
+        <p> No ACCESS RECORD FOUND!</p>
+
+      {% endif %}
+
+    </div>
+
+  </body>
+</html>

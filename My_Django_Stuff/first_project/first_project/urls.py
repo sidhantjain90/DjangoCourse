@@ -18,6 +18,8 @@ from django.urls import path
 from django.conf.urls import include
 from first_app import views
 
+
+#MTV Step5
 urlpatterns = [
     path('',views.index, name='index'),
     path('first_app/',include('first_app.urls')),
