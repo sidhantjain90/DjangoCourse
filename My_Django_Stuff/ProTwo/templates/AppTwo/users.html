@@ -5,31 +5,27 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
   </head>
   <body>
 
-    <h1>Hello This is Second Page!</h1>
-    <h2>Here is the users list</h2>
 
-    <div class="djangtwo">
-      {% if users %}
 
-      <ol>
-        {% for person in users%}
-        <li>Users Info</li>
-          <ul>
-            <li>First Name: {{ person.first_name }}</li>
-            <li>Last Name: {{ person.last_name }}</li>
-            <li>Email: {{ person.email }}</li>
-          </ul>
-        {% endfor %}
-      </ol>
+    <div class="container">
 
-      {% else %}
+      <h1>Hello This is Second Page!</h1>
+      <h2>Please sign up here!</h2>
 
-        <p> No ACCESS RECORD FOUND!</p>
 
-      {% endif %}
+      <form method="POST">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <input type="submit" class="btn btn-primary" value="Submit">
+      </form>
+
+
 
     </div>
 
