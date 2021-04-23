@@ -8,7 +8,11 @@ Things I've learnt so far:
 - Document Object Model
 - JQuery
 - Python
+- Django Framework
+- Django Deployment
 
 Things to learn:
 
-- Django
+- Blog Clone Project
+- Social Media Site Clone Project
+
