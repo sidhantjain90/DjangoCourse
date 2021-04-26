@@ -10,9 +10,9 @@ Things I've learnt so far:
 - Python
 - Django Framework
 - Django Deployment
+- Blog Clone Project
 
 Things to learn:
 
-- Blog Clone Project
 - Social Media Site Clone Project
 
