@@ -11,8 +11,10 @@ Things I've learnt so far:
 - Django Framework
 - Django Deployment
 - Blog Clone Project
-
-Things to learn:
-
 - Social Media Site Clone Project
+
+What's next ?
+- Mini Projects in JS
+- Deep dive in CSS
+- Deep dive in Django
 
